@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/ProximaNova.ttf);
+}
+@font-face {
+    font-family: 'Proxima Nova bold';
+    src: url(../fonts/proxima-nova-bold.ttf);
+}
+@font-face {
+    font-family: 'Proxima Nova semibold';
+    src: url(../fonts/proxima-nova-semibold.ttf);
+}
+@font-face {
+    font-family: 'Proxima Nova light';
+    src: url(../fonts/light.ttf);
+}
+@font-face {
+    font-family: 'Proxima Nova regular';
+    src: url(../fonts/proxima-nova-regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova';
+}
+
+.start-screen {
+    padding-top: 31px;
+    background: url(../img/background/background2.svg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/*-----------------Ссылки----------------------*/
+.start-screen a {
+    text-decoration: none;
+
+    color: #fff;
+    font-size: 18px;
+}
+
+.start-screen a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------------Ссылки----------------------*/
+
+.col-md {
+    align-items: center;
+}
+
+/*-----------------Меню----------------------*/
+menu {
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Proxima Nova semibold';
+}
+
+.main-menu .col-md{
+    text-align: center;
+}
+
+span {
+    vertical-align: middle;
+    font-family: 'Proxima Nova bold';
+    font-size: 23px;
+}
+/*-----------------Меню----------------------*/
+
+/*-----------------Промо----------------------*/
+.description {
+    margin-top: 156px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.description h1 {
+    font-size: 64px;
+    margin-bottom: 27px;
+    font-weight: bold;
+}
+
+.description p {
+    font-size: 24px;
+}
+/*-----------------Промо----------------------*/
+
+/*-----------------Форма----------------------*/
+input,
+input:active {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+
+    color: #fff;
+
+    outline: none;
+    width: auto;
+}
+
+
+input[type="submit"] {
+    width: 250px;
+    height: 60px;
+
+    border-radius: 76px;
+    background: linear-gradient(90deg, #2130F7, #8F00FF, #1C35FF);
+    border: 1px solid black;
+
+    font-family: 'Proxima Nova bold';
+    letter-spacing: 0.1em;
+    font-size: 16px;
+
+    text-shadow: 0 3px rgba(0, 0, 0, 0.2);
+
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.input-tel {
+    display: inline;
+    margin-right: 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #fff;
+
+}
+
+label {
+    margin-right: 10px;
+}
+
+/*-----------------Форма----------------------*/
+
+/*-----------------Блок 1----------------------*/
+.second-screen {
+    margin-bottom: 167px;
+}
+
+main p {
+    font-size: 20px;
+    font-family: 'Proxima Nova light';
+}
+
+.first {
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 38px;
+
+    font-family: 'Proxima Nova semibold';
+}
+
+.img1 {
+    margin-top: -50px;
+    margin-bottom: 32px;
+}
+
+hr {
+    height: 1px !important;
+    background: linear-gradient(90deg, #00A3FF, #6730DC);
+    margin-bottom: 34px !important;
+    margin-top: 38px !important;
+    
+}
+/*-----------------Блок 1----------------------*/
+
+/*-----------------Блок 2----------------------*/
+.third {
+    margin-right: 38px;
+}
+
+.fourth {
+    margin-top: 38px;
+}
+
+/*-----------------Блок 2----------------------*/
+
+
+/*-----------------Блок 2----------------------*/
+footer{
+    margin-top: 183px;
+    margin-bottom: 125px;
+}
+
+footer h3 {
+    font-family: 'Proxima Nova bold';
+    font-size: 18px;
+
+    margin-bottom: 35px;
+    
+}
+
+footer img {
+    margin-top: -10px;
+}
+
+footer a {
+    font-size: 18px;
+    color: black;
+    border-bottom: 0.5px solid black;
+    font-family: 'Proxima Nova';
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.social {
+    padding: 0;
+}
+
+.social li{
+    display: inline;
+    
+    margin-right: 36px;
+}
+
+
+
+/*-----------------Блок 2----------------------*/
